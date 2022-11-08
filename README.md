@@ -7,7 +7,7 @@ Sebuah widget stateless adalah widget yang tidak berubah walaupun ada interaksi 
 
 ### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
 
-Widget yang digunakan pada proyek kali ini adalah Text untuk menampilkan ganjil genap (dengan TextStyle) dan Counter, serta FloatingActionButton untuk menjalankan fungsi increment atau decrement yang akan merubah angka yang ditampilkan pada counter. Padding untuk formatting posisi FloatingActionButton. Visibility untuk mengatur visibilitas FloatingActionButton decrement. Icon untuk simbol plus dan minus. 
+Widget yang digunakan pada proyek kali ini adalah Text untuk menampilkan ganjil genap (dengan TextStyle) dan Counter, serta FloatingActionButton untuk menjalankan fungsi increment atau decrement yang akan merubah angka yang ditampilkan pada counter. Padding untuk formatting posisi FloatingActionButton. Visibility untuk mengatur visibilitas FloatingActionButton decrement. Icon untuk simbol plus dan minus. Center dan Column untuk layout.
 
 ### Apa fungsi dari setState()? Jelaskan variabel apa saja yang dapat terdampak dengan fungsi tersebut.
 
