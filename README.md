@@ -60,5 +60,31 @@ Navigator dalam flutter secara prinsip bekerja seperti sebuah stack. Digunakan u
 ##### 2. Menambahkan implementasi form dengan field yang diperlukan.
 ##### 3. Menambahkan halaman baru untuk mendisplay data yang telah didapat dari form.
 
+# Tugas 9 PBP (Flutter)
 
+### Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+
+Bisa, karena data JSON dapat disimpan dalam sebuah Map, namun tidak lebih baik, hal ini dikarenakan kita tidak mengetahui nilai dari item JSON tersebut.
+
+### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+
+##### 1. ListTile untuk elemen-elemen dalam drawer dan melist film.
+##### 2. Align untuk mengatur posisi elemen.
+##### 3. FutureBuilder untuk update terhadap elemen sesuai dengan future.
+##### 4. Checkbox untuk implementasi bonus
+##### 5. ListView.builder untuk membuat list widget yang dapat discroll.
+##### 6. Padding untuk mengatur posisi elemen.
+
+### Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+
+Data JSON diambil dengan membuat sebuah fungsi yang mengirim HTTP GET request ke Heroku. Response ini kemudian diproses dan digunakan untuk menginisialisasi model yang telah didefinisikan sebelumnya.
+
+### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+
+##### 1. Menambahkan mywatchlist ke drawer agar bisa diakses melalui drawer.
+##### 2. Membuat file fetchJSON.dart untuk mengambil data JSON dari heroku.
+##### 3. Membuat file mywatchlist.dart sebagai model untuk data tersebut.
+##### 4. Membuat file watchlist.dart untuk menampilkan data sesuai kriteria.
+##### 5. Membuat file detailwatchlist.dart untuk menampilkan data detail masing-masing film.
+##### 6 Mengerjakan bonus (Menambahkan checkbox, border, dll.)
 
